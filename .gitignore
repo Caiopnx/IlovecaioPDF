@@ -1,0 +1,35 @@
+# Ambiente Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Compilação e binários
+build/
+dist/
+*.exe
+*.dll
+
+# Configuração local e segredos
+config.json
+.env
+.env.*
+!.env.example
+
+# Ferramentas de terceiros e cópias locais
+LibreOffice/
+libreoffice/
+Ghostscript/
+qpdf/
+backups/
+iLoveCaioPDF/
+
+# Arquivos temporários e do sistema
+*.tmp
+*.log
+desktop.ini
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
